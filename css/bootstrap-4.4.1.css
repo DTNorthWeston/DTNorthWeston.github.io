@@ -10220,9 +10220,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
-  .homePageImage img {
-	width: 402px; !important /* desired pixel value */
+}
+
+ .homePageImage img {
+	width: 402px !important;
 	height: auto;
   }
-}
+
 /*# sourceMappingURL=bootstrap.css.map */
