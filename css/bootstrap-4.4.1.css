@@ -10228,4 +10228,9 @@ a.text-dark:hover, a.text-dark:focus {
 	height: auto;
   }
 
+.imageTable img {
+	max-height: 200px;
+	width:auto;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
