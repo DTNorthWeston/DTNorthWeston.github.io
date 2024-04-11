@@ -10233,4 +10233,10 @@ a.text-dark:hover, a.text-dark:focus {
 	width:auto;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
