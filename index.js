@@ -31,8 +31,6 @@ const people = [
 
 								 
 const searchInput = document.querySelector('.input')
-							 
-const clearButton = document.getElementById('clear')
 					
 searchInput.addEventListener("input", (e) => {
     // inside, we will need to achieve a few things:
@@ -53,6 +51,8 @@ searchInput.addEventListener("input", (e) => {
     }
 }
 
+							 
+const clearButton = document.getElementById('clear')
 
 clearButton.addEventListener("click", () => {
     // 1. write a function that removes any previous results from the page

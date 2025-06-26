@@ -40,7 +40,13 @@
           </form>
        </div>
   </nav>
-    
+  <h2>Upload Image</h2>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+	<label>Select an image:</label>
+	<input type="file" name="image" accept="image/*" required>
+	<br><br>
+	<input type="submit" value="Upload">
+</form>
   <div class="row">
          <div class="text-center col-lg-6 offset-lg-3">
            <p>Made by Dan North &amp; Thomas Weston&nbsp; &nbsp; </p>
